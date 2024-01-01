@@ -1,0 +1,105 @@
+nav.bar{
+    position: relative;
+    z-index: 1;
+    padding-bottom: 0;
+}
+
+hr.Break {
+    margin-top: 30px;
+    z-index: 2;
+}
+
+h1.name{
+    padding-bottom: 0;
+    margin-bottom: -25px;
+    margin-top: 30px;
+}
+
+ul.links{
+    padding-top: 0;
+    margin: 0;
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+li.link a{
+    display:inline-block;
+    margin-left: 30px;
+    text-decoration: none !important;
+    color: black !important;
+}
+
+li.link a:hover{
+    text-decoration: underline !important;
+    color: #0a0a5e !important;
+}
+
+div.ourStory {
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+div.aboutContainer {
+    display: inline;
+    vertical-align: middle;
+    max-width: 50%;
+    margin-left: 5%;
+}
+
+img.aboutPic1{
+    max-width: 50%;
+}
+
+div.ourValues {
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+img.aboutPic2 {
+    max-width: 50%;
+}
+
+div.valuesContainer {
+    display: inline;
+    vertical-align: middle;
+    max-width: 50%;
+    margin-right: 5%;
+}
+
+div.purchase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+img.heart, img.sad{
+    max-width: 50%;
+}
+
+h2.thanks {
+    font-style: italic;
+    color: #565252;
+}
+
+a.home {
+    text-decoration: none !important;
+    color: black !important;
+    display: inline-block;
+}
+
+a.home:hover{
+    text-decoration: underline !important;
+    color: #8d8d93 !important;
+}
+
+h1.errorMessage {
+    color: darkred;
+    text-decoration: underline;
+}
